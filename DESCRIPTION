@@ -1,0 +1,20 @@
+Package: SpaMixed
+Type: Package
+Title: Spatial mixed models for assessing environmental exposure effects on the microbiome (SpaMixed)
+Version: 1.0
+Date: 2026-05-22
+Author: Sooran Kim
+Maintainer: Sooran Kim <Sooran.Kim@nyulangone.org>
+Description: The package fits zero-inflated Poisson model for
+    high-dimensional microbiome data while accounting for spatial dependence among
+    subjects' regions and dependence among microbial taxa. The package includes utilities
+    for preprocessing microbiome count data, constructing taxon-level neighborhood matrices, 	 fitting models with INLA, and identifying exposure-associated
+    taxa using local false discovery rate.
+License: What license is it under?
+Imports: Rcpp (>= 1.1.1)
+LinkingTo: Rcpp, RcppArmadillo, testthat
+Suggests: xml2
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
