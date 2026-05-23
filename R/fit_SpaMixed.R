@@ -470,7 +470,7 @@ fit_SpaMixed <- function(
     }
     library(fdrtool)
     
-    lfdr_res <- fdrtool(z_scores, statistic = "normal", plot = FALSE, cutoff.method="locfdr")
+    lfdr_res <- fdrtool(z_scores, statistic = "normal", plot = FALSE, cutoff.method="locfdr", verbose = FALSE)
     sel_stat <- lfdr_res$lfdr      
     sel_idx  <- which(sel_stat < lfdr_thres)
     
