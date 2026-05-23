@@ -130,7 +130,7 @@
 #' adj_micro <- cooc_res$adj_micro
 #'
 #' # Construct a region-level adjacency matrix 
-#' # As an exmple, we used 4-nearest neighborhood structure with torus on 9*9 regular lattice.
+#' # As an example, we used a 4-nearest neighborhood structure with a torus on a 9*9 regular lattice.
 #' # region_adj should be a binary region-by-region adjacency matrix
 #' # with row and column names matching the region variable in sample_data.
 #' 
